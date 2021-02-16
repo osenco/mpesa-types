@@ -1,0 +1,30 @@
+{
+  "name": "mpesa",
+  "version": "1.0.0",
+  "description": "Mpesa Node Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osenco/mpesa-types.git"
+  },
+  "keywords": [
+    "mpesa",
+    "stk",
+    "payments",
+    "safaricom",
+    "daraja"
+  ],
+  "author": "Osen Concepts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osenco/mpesa-types/issues"
+  },
+  "homepage": "https://github.com/osenco/mpesa-types#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "date-fns": "^2.17.0"
+  }
+}

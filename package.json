@@ -1,5 +1,5 @@
 {
-  "name": "mpesa",
+  "name": "@osenco/mpesa",
   "version": "1.0.0",
   "description": "Mpesa Node Library",
   "main": "index.js",
@@ -25,6 +25,11 @@
   "homepage": "https://github.com/osenco/mpesa-types#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "date-fns": "^2.17.0"
+    "crypto": "^1.0.1",
+    "date-fns": "^2.17.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.28"
   }
 }
